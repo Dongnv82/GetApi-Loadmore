@@ -12,6 +12,9 @@
 		18A45F5B22A7B11300B2524C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A45F5922A7B11300B2524C /* Main.storyboard */; };
 		18A45F5D22A7B11400B2524C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A45F5C22A7B11400B2524C /* Assets.xcassets */; };
 		18A45F6022A7B11400B2524C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A45F5E22A7B11400B2524C /* LaunchScreen.storyboard */; };
+		18A45F6922A7B2C500B2524C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A45F6822A7B2C500B2524C /* Model.swift */; };
+		18A45F6B22A7B32600B2524C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A45F6A22A7B32600B2524C /* Service.swift */; };
+		18A45F6D22A7B45700B2524C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A45F6C22A7B45700B2524C /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		18A45F5C22A7B11400B2524C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A45F5F22A7B11400B2524C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A45F6122A7B11400B2524C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A45F6822A7B2C500B2524C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		18A45F6A22A7B32600B2524C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		18A45F6C22A7B45700B2524C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		18A45F5422A7B11300B2524C /* GetApi-Loadmore */ = {
 			isa = PBXGroup;
 			children = (
+				18A45F6722A7B22400B2524C /* Networking */,
 				18A45F5522A7B11300B2524C /* AppDelegate.swift */,
 				18A45F5722A7B11300B2524C /* ViewController.swift */,
+				18A45F6C22A7B45700B2524C /* TableViewCell.swift */,
 				18A45F5922A7B11300B2524C /* Main.storyboard */,
 				18A45F5C22A7B11400B2524C /* Assets.xcassets */,
 				18A45F5E22A7B11400B2524C /* LaunchScreen.storyboard */,
 				18A45F6122A7B11400B2524C /* Info.plist */,
 			);
 			path = "GetApi-Loadmore";
+			sourceTree = "<group>";
+		};
+		18A45F6722A7B22400B2524C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18A45F6822A7B2C500B2524C /* Model.swift */,
+				18A45F6A22A7B32600B2524C /* Service.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A45F6D22A7B45700B2524C /* TableViewCell.swift in Sources */,
+				18A45F6922A7B2C500B2524C /* Model.swift in Sources */,
+				18A45F6B22A7B32600B2524C /* Service.swift in Sources */,
 				18A45F5822A7B11300B2524C /* ViewController.swift in Sources */,
 				18A45F5622A7B11300B2524C /* AppDelegate.swift in Sources */,
 			);
